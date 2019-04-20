@@ -1,0 +1,134 @@
+/* CSS Document */
+
+body {
+  background-color: black;
+  font-family: Gotham;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-weight: 400;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+header{
+	background: #00DFDB;
+}
+
+header::after{
+	content: '';
+	display: table;
+	clear:both;
+}
+
+.logo{
+	float: left;
+	padding: 10px;
+}
+
+nav{
+	float: left;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 35px;
+	
+	position: relative;
+}
+
+nav a{
+	color: gray;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+nav a:hover{
+	color: black;
+}
+
+nav a::before
+{
+	content: '';
+	display: block;
+	height: 5px;
+	background: #444;
+	
+	position: absolute;
+	top: 0;
+	width: 0%;
+	
+	transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+	width: 100%;
+}
+
+.youtubeicon {
+	padding: 10px;
+	
+}
+.instagramicon {
+	padding: 10px;
+	
+}
+.twittericon {
+	padding: 10px;
+	
+}
+
+social{
+	float: right;
+		
+}
+
+social ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+social li{
+	display: inline-block;
+	padding-top: 20px;
+	
+	position: relative;
+}
+
+social a::before
+{
+	content: '';
+	display: block;
+	height: 5px;
+	background: #444;
+	
+	position: absolute;
+	top: 0;
+	width: 0%;
+	
+	transition: all ease-in-out 250ms;
+}
+
+.newsarea{
+	
+	margin: 50px;
+}
+
+devlog{
+	color: white;
+	background-color: aqua;
+	margin-left: 30px;
+	
+}
