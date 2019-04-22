@@ -13,7 +13,7 @@ body {
 }
 
 header{
-	background: #00DFDB;
+	background: #600098;
 }
 
 header::after{
@@ -125,9 +125,5 @@ body news {
 }
 
 body news h1,p{
-	padding-left: 50px;
-}
-
-news video{
 	padding-left: 50px;
 }
