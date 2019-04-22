@@ -127,3 +127,7 @@ body news {
 body news h1,p{
 	padding-left: 50px;
 }
+
+news video{
+	padding-left: 50px;
+}
