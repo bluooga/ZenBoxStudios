@@ -120,20 +120,20 @@ social a::before
 	transition: all ease-in-out 250ms;
 }
 
-games{
+.games{
 	color: white;
 }
 
-games a{
+.games a{
 	color:white;
 	text-decoration: none;
 	text-transform: uppercase;
 }
 
-games a:hover{
+.games a:hover{
 	color: Red;
 }
 
-games p,h1,p1{
+.games p,h1,p1{
 	padding-left: 50px;
 }

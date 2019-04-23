@@ -132,3 +132,7 @@ devlog{
 	color: white;
 	
 }
+
+.newsarea ul{
+	list-style: none;
+}

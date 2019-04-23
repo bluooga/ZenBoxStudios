@@ -122,6 +122,12 @@ social a::before
 	transition: all ease-in-out 250ms;
 }
 
+.game{
+	padding: 60px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
 moonlight{
 	color: white;
 }
